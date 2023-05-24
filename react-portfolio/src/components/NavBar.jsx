@@ -16,7 +16,7 @@ export default function NavBar() {
   }, []);
 
   function onUpdateActiveLink(link) {
-    console.log(link);
+    setActiveLink(link);
   }
 
   return (
